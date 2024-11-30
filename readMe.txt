@@ -1,3 +1,8 @@
+This is a basic implementation of Alexander Sannikov's "Novel Approach to Calculating Global
+Illumination" knows as Radiance Cascades.
+Link to his github repo (which also links the relevant paper):
+https://github.com/Raikiri/RadianceCascadesPaper
+
 To run the project, do the following:
 
 1.	Be using the Windows 10 operating system (Windows 11 might work, but I have not tested it)
@@ -13,20 +18,6 @@ If the above are all as stated, perform the following steps:
 4.	Then type “cmake --build .” and push enter again. This will set up the assimp submodule.
 5.	Now double-click the visual studio solution file in the solution directory “zenditeEngineV2.sln” to open it in Visual Studio 2022.
 6.	Press F5 to build and run.
-
-
-
-Controls:
-
-W, A, S and D => Move flycam around the scene.
-
-Q and E => Hover Up and Down.
-
-C => Unlock mouse pointer (Which enables the user to use the mouse on the GUI)
-
-V => Lock mouse pointer to game window (Nouse will now control camera view direction)
-
-L and K => Toggle wireframe mode on and off.
 
 
 
