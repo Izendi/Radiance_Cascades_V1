@@ -178,7 +178,6 @@ int main(void)
 	COORD.RegisterComponents();
 	COORD.RegisterSystems();
 	COORD.SetUpSystemBitsets();
-
 	
 
 	std::cout << "\nRenderableSystem bitset: " << COORD.GetSystemBitset<RenderableSystem>() << std::endl;
